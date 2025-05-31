@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'pages/updates_page.dart';
+import 'pages/communities_page.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -15,10 +16,7 @@ class _HomeScreenState extends State<HomeScreen> {
   final screens = const  [
   ChatsPage(),
   UpdatesPage(), // Add this line
-  
-
-    ChatsPage(),
-   
+  CommunitiesPage(),
   ];
 
   @override

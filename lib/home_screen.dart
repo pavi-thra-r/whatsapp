@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'pages/calls_page.dart';
 import 'pages/updates_page.dart';
 import 'pages/communities_page.dart';
 
@@ -17,6 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
   ChatsPage(),
   UpdatesPage(), // Add this line
   CommunitiesPage(),
+  CallsPage()
   ];
 
   @override
